@@ -1,0 +1,91 @@
+.white_stroke {
+    -webkit-text-stroke: 1px #A3A6B1;
+}
+
+.white_stroke.black_stroke {
+    -webkit-text-stroke: 1px #0C1E3D;
+}
+
+.lines_wrap,
+.field_line,
+.field_line_2,
+.label,
+.drop_head,
+.switch_circ,
+.noize {
+    pointer-events: none;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-link,
+    .nav-link-down {
+        pointer-events: none;
+    }
+}
+
+.castome_bt_tx {
+    pointer-events: none;
+}
+
+.arrow_wrap.mob {
+    -webkit-transform: translate3d(-70%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -moz-transform: translate3d(-70%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -ms-transform: translate3d(-70%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    transform: translate3d(-70%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    opacity: 0;
+}
+
+.h_1.yg {
+    -webkit-transform: translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -moz-transform: translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -ms-transform: translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    transform: translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+}
+
+/* Adjustments for the large text module */
+
+.big_tx {
+    font-size: 2.5rem; /* Reduce font size */
+    line-height: 1.4; /* Adjust line height */
+    color: #343a40; /* Adjust text color if needed */
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 767px) {
+    .big_tx_wrap {
+        padding: 2rem;
+        margin: 2rem auto;
+    }
+    .big_tx {
+        font-size: 1.8rem; /* Further reduce font size on smaller screens */
+    }
+}
+
+/* Responsive adjustments for the large text module on smaller screens */
+@media (max-width: 767px) {
+    .big_tx {
+        font-size: 1.5rem; /* Reduce font size */
+        line-height: 1.5; /* Adjust line height */
+    }
+}
+
+/* Styles for Contact Us buttons */
+.contact-buttons-wrap {
+    display: flex;
+    flex-direction: row; /* Ensure horizontal layout */
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between buttons */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+.contact-buttons-wrap .button {
+    display: inline-flex; /* Make buttons inline flex containers */
+    flex-grow: 0; /* Prevent buttons from growing */
+    flex-shrink: 0; /* Prevent buttons from shrinking */
+    width: auto; /* Override potential full-width styles */
+    /* Keep padding and font-size from inline styles, or adjust as needed */
+    padding: 15px 30px; /* Adjusted padding for better appearance */
+    font-size: 18px; /* Adjusted font size */
+    text-align: center;
+}

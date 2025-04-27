@@ -1,0 +1,22 @@
+/* @import must be at top of file, otherwise CSS will not work */
+
+@import url("//hello.myfonts.net/count/3fd7e1");
+@font-face {
+    font-family: "Mont-Bold";
+    src: url('webFonts/MontBold/font.woff2') format('woff2'), url('webFonts/MontBold/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Mont-Light";
+    src: url('webFonts/MontLight/font.woff2') format('woff2'), url('webFonts/MontLight/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Mont-Regular";
+    src: url('webFonts/MontRegular/font.woff2') format('woff2'), url('webFonts/MontRegular/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Mont-SemiBold";
+    src: url('webFonts/MontSemiBold/font.woff2') format('woff2'), url('webFonts/MontSemiBold/font.woff') format('woff');
+}

@@ -1,0 +1,5 @@
+/* Lock Scroll */
+
+html.no-scroll {
+    overflow: hidden;
+}

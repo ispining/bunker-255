@@ -1,0 +1,11 @@
+input.input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #0B1830 inset;
+    -webkit-text-fill-color: #fff;
+}
+
+input.input.light:-webkit-autofill,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #EDF6F9 inset;
+    -webkit-text-fill-color: #0C1E3D;
+}

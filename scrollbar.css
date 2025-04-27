@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+    width: 5px;
+    /* for vertical scrollbars */
+    height: 1px;
+    /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    cursor: grab;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    height: px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E1E1E1;
+    border-radius: 8px;
+}
